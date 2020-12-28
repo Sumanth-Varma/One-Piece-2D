@@ -1,0 +1,113 @@
+#score
+{
+	text-align: center;
+}
+
+.game
+{
+	width: 600px;
+	height: 300px;
+	border: 2px solid black;
+	margin: auto;
+	background-image: url("https://cache.desktopnexus.com/thumbseg/308/308977-bigthumbnail.jpg");
+	background-size: 600px 300px; 
+}
+
+#luffy
+{
+	height: 75px;
+	width: 75px;
+	position: relative;
+	top: 225px;
+	background-image: url("https://files.gamebanana.com/img/ico/sprays/luffy_run_render.gif");
+	background-size: 75px 75px;
+	background-repeat: no-repeat;
+}
+
+#cannon
+{
+	height: 25px;
+	width: 25px;
+	position: relative;
+	top: 175px;
+	left: 380px;
+	background-image: url("https://img.pngio.com/cannonball-opengameartorg-cannon-ball-png-276_278.png");
+	background-size: 25px 25px;
+	animation: cannon 1.33s infinite linear;
+}
+
+@keyframes cannon
+{
+	0%{left: 380px;}
+	100%{left: -50px;}
+}
+
+.jump-animation
+{
+	animation: jump 0.5s;
+}
+
+@keyframes jump
+{
+	0%{top: 225px;}
+	50%{top: 75px;}
+	75%{top: 75px;}
+	100%{top: 225px;}	
+}
+
+#fullpage
+{
+	margin: 100px;
+	background-color: lightgray;
+}
+
+#tonewgame, #toclick
+{
+    margin-left: 38%;
+    margin-right: 40%;
+}
+
+#image
+{
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/82270e70-01a6-4570-8622-80a356bb7daa/d5xfdat-82f7facf-04c6-43e3-84ee-757ea8d54259.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODIyNzBlNzAtMDFhNi00NTcwLTg2MjItODBhMzU2YmI3ZGFhXC9kNXhmZGF0LTgyZjdmYWNmLTA0YzYtNDNlMy04NGVlLTc1N2VhOGQ1NDI1OS5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.e5fxYAhBaYOF0yeU3OPHiiwjzcbshVGo21F-v7xz71w");
+	background-size: cover;
+}
+
+body
+{
+	background-color: lightgray;
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: large;
+}
+
+a
+{
+	font-size: 100px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+h1
+{
+	display: inline;
+	font-size: 200px;
+}
+h6
+{
+	font-size: 40px;
+	text-align: center;
+}
+
+
+.container {
+  ...
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
