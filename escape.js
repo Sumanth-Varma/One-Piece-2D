@@ -33,8 +33,8 @@ setInterval(() => {
 
 	if (cannnonleft < 50 && cannnonleft > 0 && luffytop > 140)
 	{
-		document.getElementById('luffy').style.backgroundImage="url('https://bestanimations.com/media/explosions/2065036779fire-explosion-animation-3.gif')";
-		document.getElementById('cannon').style.backgroundImage="url('https://bestanimations.com/media/explosions/2065036779fire-explosion-animation-3.gif')";
+		document.getElementById('luffy').style.backgroundImage="url('img/blast.gif')";
+		document.getElementById('cannon').style.backgroundImage="url('img/blast.gif')";
 		setTimeout(() => alert("You got a score of: " + score.innerText + ".\n\nPlay again?"), 25);
 		setTimeout(() => location.reload(), 1000);
 	}

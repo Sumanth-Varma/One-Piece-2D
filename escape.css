@@ -9,7 +9,7 @@
 	height: 300px;
 	border: 2px solid black;
 	margin: auto;
-	background-image: url("https://cache.desktopnexus.com/thumbseg/308/308977-bigthumbnail.jpg");
+	background-image: url("img/backimg.jpg");
 	background-size: 600px 300px; 
 }
 
@@ -19,7 +19,7 @@
 	width: 75px;
 	position: relative;
 	top: 225px;
-	background-image: url("https://files.gamebanana.com/img/ico/sprays/luffy_run_render.gif");
+	background-image: url("img/luffy.gif");
 	background-size: 75px 75px;
 	background-repeat: no-repeat;
 }
@@ -31,7 +31,7 @@
 	position: relative;
 	top: 175px;
 	left: 380px;
-	background-image: url("https://img.pngio.com/cannonball-opengameartorg-cannon-ball-png-276_278.png");
+	background-image: url("img/cannon.png");
 	background-size: 25px 25px;
 	animation: cannon 1.33s infinite linear;
 }
@@ -72,7 +72,7 @@
 	width: 500px;
 	height: 500px;
 	margin: auto;
-	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/82270e70-01a6-4570-8622-80a356bb7daa/d5xfdat-82f7facf-04c6-43e3-84ee-757ea8d54259.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODIyNzBlNzAtMDFhNi00NTcwLTg2MjItODBhMzU2YmI3ZGFhXC9kNXhmZGF0LTgyZjdmYWNmLTA0YzYtNDNlMy04NGVlLTc1N2VhOGQ1NDI1OS5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.e5fxYAhBaYOF0yeU3OPHiiwjzcbshVGo21F-v7xz71w");
+	background-image: url("img/logo.gif");
 	background-size: cover;
 }
 
